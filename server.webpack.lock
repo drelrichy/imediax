@@ -1,0 +1,5 @@
+{
+  "https://localhost:3000/video/sample.mp4": { "integrity": "sha512-2/VGOHvVvhjBXpaLDXcI5EQlbBZTDyeaaKMEQqOYkxddklN8numDHA/WESyiXxdUWj5eRJjw6rlV4MpImUgw3A==", "contentType": "video/mp4" },
+  "https://onetv.ng/vod/learn/002.mp4": { "integrity": "sha512-YajijzisCA02kB5XRQjB+uq2gdUvljL69VxoyyAQgMZjHVvYoQrChADi75Xugq3Ys12hs3LDI5Y8V11f5G4HPw==", "contentType": "video/mp4" },
+  "version": 1
+}

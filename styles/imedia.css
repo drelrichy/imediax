@@ -1,0 +1,45 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+
+.fontsx{
+ 
+  font-size: 1.0  rem;
+  font-family: '7LED italic', sans-serif;
+font-family: '7LED', sans-serif;
+font-family: 'LED Display7', sans-serif;
+font-family: 'Advanced LED Board-7', sans-serif;
+
+}
+
+.led {
+
+gap: 3px;
+font-size: 16px;
+vertical-align: middle ;
+padding: 4px;
+font-family: 'Advanced LED Board-7', sans-serif;
+                                                
+}
+
+
+@layer components{
+  .my-button{
+    background-color: brown;
+    color:white;
+    padding: 12px 16px 12px 16px;
+    border-radius: 10px;
+    font-weight: 600;
+  }
+}
+ 
+@layer utilities{
+  .flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "name": "imediaserv",
+  "version": "3.0",
+  "private": true,
+  "scripts": {
+    "dan": "next dev --experimental-https --experimental-https-key ./certificates/localhost-key.pem --experimental-https-cert ./certificates/localhost.pem",
+    "dev": "next dev --experimental-https ",
+    "it": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@iconscout/react-unicons": "^2.0.2",
+    "bcryptjs": "^2.4.3",
+    "googleapis": "^132.0.0",
+    "jquery": "^3.7.1",
+    "mongoose": "^8.1.1",
+    "next": "^14.1.0",
+    "next-auth": "^4.24.5",
+    "next-theme": "^0.1.5",
+    "next-themes": "^0.2.1",
+    "react": "^18",
+    "react-clock": "^4.6.0",
+    "react-dom": "^18",
+    "react-icons": "^5.0.1",
+    "react-player": "^2.14.1",
+    "tw-elements": "^1.1.0",
+    "tw-elements-react": "^1.0.0-alpha2"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.5.29",
+    "@types/node": "20.11.6",
+    "@types/react": "18.2.48",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "postcss": "^8",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.4.1",
+    "tailwindcss-font-inter": "^3.0.1",
+    "typescript": "5.3.3"
+  }
+}
